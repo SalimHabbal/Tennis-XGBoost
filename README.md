@@ -26,6 +26,7 @@ The data pipeline transforms raw match records into a machine learning ready dat
 ### 1. Data Source
 -   **Input**: CSV files `atp_matches_2015.csv` through `atp_matches_2024.csv`.
 -   **Volume**: Approximately 27,000 matches.
+-   **Attribution**: The match data used in this project was sourced from the publicly available repositories of JeffSackmann and zimbakovtech.
 
 ### 2. Processing Steps
 -   **Chronological Sorting**: Matches are ordered by date to ensure that future information is not used in past predictions.
